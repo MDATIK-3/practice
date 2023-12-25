@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #c0c0c011;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 60vh;
+  background: #ffffff;
+  padding: 4rem 0;
+  border: 2px solid #cea135;
+}
+.container-wrapper {
+  margin: 0 auto;
+  max-width: 1366px;
+}
+.container-header {
+  border-bottom: 2px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 36px;
+  position: relative;
+  width: 957px;
+}
+.department-title {
+  cursor: pointer;
+
+  font-size: 17px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  color: #585858;
+}
+.department-title:hover {
+  color: rgb(4, 61, 104);
+  border: #cea135;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.parent-scroller {
+  display: flex;
+  max-width: 1322px;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-content {
+  display: flex;
+ 
+  overflow-x: scroll;
+  gap: 15px;
+  padding: 20px 0;
+  scroll-behavior: smooth;
+}
+.content {
+  width: 305px;
+ 
+  background: #fbfbfb;
+  box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.content img {
+  width: 260px;
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.content img:hover {
+  transform: scale(.97);
+}
+.content .course-title {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  margin: 5px 2px 9px 3px;
+  font-size: 14px;
+}
+.content .duration {
+  display: flex;
+  font-size: 12px;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 30px 8px 10px;
+}
+.first-part span,
+.second-part span {
+  opacity: 0.5;
+}
+.button-part {
+  padding: 5px 0 20px 0;
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.button-part button {
+  background: #f6faff;
+  border: none;
+  padding: 3px 4px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: lighter;
+}
+.button-part .button-2 {
+  background: #00a9ae;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+.button-part .button-1 {
+  border: 0.01px solid black;
+  transition: all 0.2s ease-in;
+}
+.button-1:hover {
+  background: #000000;
+  color: #fff;
+  font-weight: lighter;
+}
+.button-2:hover {
+  background: #004159;
+  color: #fffdfd;
+}
+.icon {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #14c9cf;
+  padding: 10px;
+  margin: 0 35px;
+  scroll-behavior: smooth;
+}
+
+.icon:hover {
+  color: #ffffff;
+  background: #012145;
+}
+
+.scroll-content::-webkit-scrollbar{
+  display: none;
+}
