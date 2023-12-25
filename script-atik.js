@@ -26,15 +26,15 @@ function CreateCourse(URL, courseTitle, time1, time2) {
     `;
     document.querySelector(".scroll-content").innerHTML += html;
 }
-CreateCourse('/Day-5/images-atik/image-3.GIF', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-1.jpeg', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-2.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-4.png', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-3.GIF', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-1.jpeg', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-2.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-4.png', "Computer Architecture and Organization", "20-25 hrs", "learners");
 
-CreateCourse('/Day-5/images-atik/image-5.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-1.jpeg', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-2.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
-CreateCourse('/Day-5/images-atik/image-3.GIF', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-5.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-1.jpeg', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-2.jpg', "Computer Architecture and Organization", "20-25 hrs", "learners");
+CreateCourse('images-atik/image-3.GIF', "Computer Architecture and Organization", "20-25 hrs", "learners");
 
 
 
